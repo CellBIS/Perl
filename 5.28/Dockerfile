@@ -1,13 +1,13 @@
 FROM perl:5.28.2
-MAINTAINER yusrideb@cpan.org
+MAINTAINER Achmad Yusri Afandi - yusrideb@cpan.org
 
 RUN apt-get update && apt-get install build-essential libdevel-cover-perl libjson-xs-perl libsass-dev libsass0 libsass0-dbg -y && \
-curl -L https://cpanmin.us | perl - App::cpanminus && \
-curl -L https://cpanmin.us | perl - Mojolicious && \
-curl -L https://cpanmin.us | perl - CSS::Sass && \
-curl -L https://cpanmin.us | perl - Imager::File::PNG && \
-curl -L https://cpanmin.us | perl - Cpanel::JSON::XS && \
-curl -L https://cpanmin.us | perl - File::ShareDir
+cpanm App::cpanminus && \
+cpanm Mojolicious && \
+cpanm CSS::Sass && \
+cpanm Imager::File::PNG && \
+cpanm Cpanel::JSON::XS && \
+cpanm File::ShareDir
 
 WORKDIR /root
 
