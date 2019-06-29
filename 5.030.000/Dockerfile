@@ -1,4 +1,4 @@
-FROM perl:5.26.3
+FROM perl:5.30.0
 MAINTAINER yusrideb@cpan.org
 
 RUN apt-get update && apt-get install build-essential libdevel-cover-perl libjson-xs-perl libsass-dev libsass0 libsass0-dbg -y && \
@@ -11,4 +11,4 @@ curl -L https://cpanmin.us | perl - File::ShareDir
 
 WORKDIR /root
 
-CMD ["perl5.26.3","-de0"]
+CMD ["perl5.24.4","-de0"]
