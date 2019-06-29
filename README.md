@@ -2,10 +2,13 @@
 
 The purpose of this Docker Images for Perl App Project by CellBIS.
 
-Docker images contains Mojolicious v8.18 with dependency
-- App::cpanminus
-- Mojolicious
-- CSS::Sass
-- Imager::File::PNG
-- Cpanel::JSON::XS
-- File::ShareDir
+Perl Module bundle in all Docker Images :
+
+| Name | Module |
+| --- | --- |
+| Main | Mojolicious   | 
+| Dependency | CSS::Sass |
+| Dependency | Imager::File::PNG |
+| Dependency | Cpanel::JSON::XS |
+| Dependency | File::ShareDir |
+

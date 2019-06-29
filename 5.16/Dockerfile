@@ -1,8 +1,7 @@
 FROM perl:5.16.3
 MAINTAINER Achmad Yusri Afandi - yusrideb@cpan.org
 
-RUN cpanm App::cpanminus && \
-cpanm Mojolicious && \
+RUN cpanm Mojolicious && \
 cpanm CSS::Sass && \
 cpanm Imager::File::PNG && \
 cpanm Cpanel::JSON::XS && \
