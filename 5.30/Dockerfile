@@ -10,4 +10,4 @@ cpanm File::ShareDir
 
 WORKDIR /root
 
-CMD ["perl5.24.4","-de0"]
+CMD ["perl5.30.0","-de0"]
