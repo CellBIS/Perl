@@ -8,6 +8,7 @@ Perl Module bundle in all Docker Images :
 | Name | Module |
 | --- | --- |
 | Main | Mojolicious   | 
+| Dependency | Mojolicious::Plugin::AssetPack | 
 | Dependency | CSS::Sass |
 | Dependency | Imager::File::PNG |
 | Dependency | Cpanel::JSON::XS |
