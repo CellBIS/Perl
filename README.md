@@ -5,14 +5,15 @@ This images base on [Official Perl Docker Images](https://hub.docker.com/_/perl)
 
 Perl Module bundle in all Docker Images :
 
-| Name | Module |
-| --- | --- |
-| Main | Mojolicious   | 
-| Dependency | Mojolicious::Plugin::AssetPack | 
-| Dependency | CSS::Sass |
-| Dependency | Imager::File::PNG |
-| Dependency | Cpanel::JSON::XS |
-| Dependency | File::ShareDir |
+| Name | Module | caveats |
+| --- | --- | --- |
+| Main | Mojolicious | all versions  |
+| Dependency | Mojolicious::Plugin::AssetPack | all versions |
+| Dependency | CSS::Sass | all versions except perl 5.16 |
+| Dependency | CSS::Minifier::XS | all versions |
+| Dependency | Imager::File::PNG | all versions |
+| Dependency | Cpanel::JSON::XS | all versions |
+| Dependency | File::ShareDir | all versions |
 
 Perl version :
 
