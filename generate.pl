@@ -48,8 +48,6 @@ sub generate_all {
 sub tags {
   my ($self, $tags) = @_;
   
-  $tags = $tags eq 'latest' ? '5.30' : $tags;
-  
   my $docker_perl =  CellBIS::DockerPerl->new;
   
   say "Generate docker images for Perl $tags :";
